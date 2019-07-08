@@ -1,0 +1,118 @@
+@media only screen and (min-width: 768px) {
+    .logo {
+        height: 60px;
+    }
+
+    .main-menu {
+        &-list {
+            &.show {
+                font-size: 1.2rem;
+                a li {
+                    padding: 0 1.5rem;
+                }
+            }
+        }
+    }
+
+    .content-container {
+        &-artwork {
+            img {
+                height: 400px;
+                width: 500px;
+            }
+            .content-container.card-container.artwork {
+                position: absolute;
+                top: 25%;
+                left: 60%;
+            }
+        }
+
+        &-sketches {
+            img {
+                height: 400px;
+                width: 600px;
+                position: absolute;
+                top: 63%;
+                left: 40%;
+            }
+            .content-container.card-container.sketches {
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                top: 75%;
+                left: 6%;
+            }
+        }
+
+        &-media {
+            img {
+                height: 800px;
+                position: absolute;
+                top: 115%;
+                left: 5%;
+            }
+            .content-container.card-container.media {
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                top: 145%;
+                left: 50%;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1020px) {
+    .content-container {
+        &-artwork {
+            img {
+                height: 750px;
+                width: 1080px;
+            }
+            .content-container.card-container.artwork {
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                top: 35%;
+                left: 70%;
+            }
+        }
+
+        &-sketches {
+            img {
+                height: 700px;
+                width: 1200px;
+                position: absolute;
+                top: 100%;
+                left: 40%;
+            }
+            .content-container.card-container.sketches {
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                top: 125%;
+                left: 15%;
+            }
+        }
+
+        &-media {
+            img {
+                height: 800px;
+                position: absolute;
+                top: 145%;
+                left: 5%;
+            }
+            .content-container.card-container.media {
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                top: 195%;
+                left: 35%;
+            }
+        }
+    }
+}
+
+// @media only screen and (min-width: 1800px) {
+
+// }

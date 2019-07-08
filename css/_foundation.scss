@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    // border: 1px solid $primary-color;
+}
+
+body,html {
+    font-family: $primary-font;
+    font-size: 1.2rem;
+    background-color: $primary-color;
+}
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: $dark-color;
+}
+
+a:hover {
+    color: $active-color;
+    transition: 0.2s all ease-in-out;
+}
+
+.active {
+    color: $active-color;
+}
