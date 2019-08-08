@@ -8,7 +8,7 @@
 body, html {
   font-family: Quicksand;
   font-size: 1.2rem;
-  background-color: #eee6df;
+  background-color: #e5e5e5;
 }
 
 img {
@@ -22,13 +22,13 @@ a {
 }
 
 a:hover {
-  color: #935d41;
+  color: #e6a038;
   -webkit-transition: 0.2s all ease-in-out;
   transition: 0.2s all ease-in-out;
 }
 
 .active {
-  color: #935d41;
+  color: #e6a038;
 }
 
 .menu {
@@ -167,6 +167,7 @@ a:hover {
   font-size: 2rem;
   font-weight: bold;
   margin: 0 auto;
+  color: #e6a038;
 }
 
 .content-container.card-container p {
